@@ -1,41 +1,99 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reisen - Mein Portfolio</title>
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reisen – Unterwegs in der Welt</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      background-color: #fefcfb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background-color: #f2e9e4;
+      padding: 10px;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    header {
+      background-color: #c9d8c5;
+      padding: 30px 0;
+      text-align: center;
+      color: #fff;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .travel-images {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+    .travel-images img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="about.html">Über mich</a></li>
-            <li><a href="resume.html">Lebenslauf</a></li>
-            <li><a href="yoga.html">Yoga</a></li>
-            <li><a href="art.html">Kunst</a></li>
-            <li><a href="travel.html">Reisen</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>Reisen</h1>
-    </header>
-    <section>
-        <p>Ich liebe es, neue Kulturen zu entdecken. Besonders inspirierend fand ich Reisen durch Asien. Meine Lieblingsorte sind Berlin, Marburg und die Ostsee. Reisen erweitert meinen Horizont – beruflich wie persönlich.</p>
-    </section>
-        <img src="assets/images/travel_img3.jpg" 
-        alt="Reisen ist meine Leidenschaft." title="Ekaterina's Art." width = 200 style="border-radius: 10px;">
-        <img src="assets/images/travel_img4.jpg" 
-        alt="Art ist meine Leidenschaft." title="Ekaterina's Art." width = 200 style="border-radius: 10px;">
-        <img src="assets/images/travel_img.jpg" 
-        alt="Art ist meine Leidenschaft." title="Ekaterina's Art." width = 200 style="border-radius: 10px;">
-    
-<!-- <section class="img">
-     <img src="assets/images/travel_img3.jpg" alt="Reisebild 1" class="travel-img">
-    <img src="assets/images/travel_img4.jpg" alt="Reisebild 2" class="travel-img">
-    <img src="assets/images/travel_img5.jpg" alt="Reisebild 3" class="travel-img">
-</section> -->
 
-    </body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li><a href="about.html">Über mich</a></li>
+      <li><a href="resume.html">Lebenslauf</a></li>
+      <li><a href="yoga.html">Yoga</a></li>
+      <li><a href="art.html">Kunst</a></li>
+      <li><a href="travel.html">Reisen</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Reisen – Unterwegs in der Welt</h1>
+  </header>
+
+  <section>
+    <p>
+      Reisen bedeutet für mich Freiheit, Neugier und neue Perspektiven. Ob fern oder nah – unterwegs sein schenkt mir 
+      Lebensfreude, frische Gedanken und kreative Impulse.
+    </p>
+    <p>
+      Besonders inspirierend waren meine Reisen durch Asien, die mich tief berührt haben. Auch Orte wie Berlin, 
+      Marburg oder die Ostsee gehören zu meinen persönlichen Kraftorten, die ich immer wieder gerne besuche.
+    </p>
+
+    <div class="travel-images">
+      <img src="assets/images/travel_img3.jpg" alt="Tempel in Asien" title="Asienreise">
+      <img src="assets/images/travel_img4.jpg" alt="Reisen inspiriert mich" title="Kultur erleben">
+      <img src="assets/images/travel_img.jpg" alt="Wellen an der Ostsee" title="Natur genießen">
+    </div>
+
+    <p>
+      Jede Reise ist ein kleiner Neuanfang – mit offenen Augen durch fremde Städte und Landschaften zu gehen,
+      lässt mich staunen und wachsen.
+    </p>
+  </section>
+
+</body>
 </html>

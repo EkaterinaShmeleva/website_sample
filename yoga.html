@@ -1,50 +1,99 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yoga & Achtsamkeit – Mein Weg</title>
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga – Mein persönlicher Weg</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      background-color: #fefcfb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background-color: #f2e9e4;
+      padding: 10px;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    header {
+      background-color: #d5bdaf;
+      padding: 30px 0;
+      text-align: center;
+      color: #fff;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .yoga-images {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+    .yoga-images img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="about.html">Über mich</a></li>
-            <li><a href="resume.html">Lebenslauf</a></li>
-            <li><a href="yoga.html" class="active">Yoga</a></li>
-            <li><a href="art.html">Kunst</a></li>
-            <li><a href="travel.html">Reisen</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-    </nav>
 
-    <header>
-        <h1>Yoga & Achtsamkeit</h1>
-        <p>Ein Weg zu innerer Balance und körperlicher Kraft</p>
-    </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li><a href="about.html">Über mich</a></li>
+      <li><a href="resume.html">Lebenslauf</a></li>
+      <li><a href="yoga.html">Yoga</a></li>
+      <li><a href="art.html">Kunst</a></li>
+      <li><a href="travel.html">Reisen</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <section>
-            <p>
-                Yoga ist für mich viel mehr als nur Bewegung – es ist ein liebevoller Begleiter durch alle Höhen und Tiefen des Lebens.
-                Besonders als Ausgleich zur Bildschirmarbeit schenkt mir meine Praxis Ruhe, Klarheit und neue Energie.
-            </p>
-            <p>
-                Ich praktiziere regelmäßig integrativen Yoga – eine sanfte, ganzheitliche Form, die Atem, Bewegung und Achtsamkeit verbindet.
-                Meine Ausbildung zur Yoga-Lehrerin hat diesen Weg vertieft und bereichert.
-            </p>
-        </section>
+  <header>
+    <h1>Yoga & Achtsamkeit</h1>
+  </header>
 
-        <section class="yoga-gallery">
-            <img src="assets/images/yoga_img2.jpg" alt="Yoga im Alltag" title="Yoga ist Balance" width="250" style="border-radius: 12px;">
-            <img src="assets/images/yoga_img4.jpg" alt="Achtsame Bewegung" title="Kraft & Stille" width="250" style="border-radius: 12px;">
-            <img src="assets/images/yoga_img3.jpg" alt="Natur und Yoga" title="Im Einklang mit mir" width="250" style="border-radius: 12px;">
-        </section>
-    </main>
+  <section>
+    <p>
+      Yoga ist für mich mehr als Bewegung – es ist ein Moment der Ruhe, Klarheit und Verbindung mit mir selbst. 
+      Gerade als Ausgleich zur Arbeit am Bildschirm schenkt mir meine Praxis Energie und innere Balance.
+    </p>
+    <p>
+      Ich praktiziere seit vielen Jahren regelmäßig integrativen Yoga und habe mich auch zur Yoga-Lehrerin ausbilden lassen. 
+      Diese Erfahrung hat meine Sicht auf Körper und Geist tief verändert – und ich gebe diese Inspiration gerne weiter.
+    </p>
 
-    <footer>
-        <p>&copy; 2025 – Mit Herz gestaltet von Ekaterina</p>
-    </footer>
+    <div class="yoga-images">
+      <img src="assets/images/yoga_img2.jpg" alt="Meditative Yogapose im Sonnenlicht" title="Yoga im Licht">
+      <img src="assets/images/yoga_img4.jpg" alt="Ausgleich und innere Ruhe" title="Innere Ruhe finden">
+      <img src="assets/images/yoga_img3.jpg" alt="Körperliche Stärke und Flexibilität" title="Bewegung & Stärke">
+    </div>
+
+    <p>
+      Ob draußen in der Natur oder in ruhigen Momenten zuhause – Yoga begleitet mich jeden Tag. 
+      Es ist mein Anker, mein Kraftort und meine tägliche Erinnerung an Achtsamkeit.
+    </p>
+  </section>
+
 </body>
 </html>

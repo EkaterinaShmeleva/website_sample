@@ -1,39 +1,102 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startseite - Mein Portfolio</title>
-    <link rel="icon" href="assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kunst & Malerei – Mein Portfolio</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      background-color: #fefcfb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background-color: #f2e9e4;
+      padding: 10px;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    header {
+      background-color: #d5bdaf;
+      padding: 30px 0;
+      text-align: center;
+      color: #fff;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .image-gallery img {
+      border-radius: 12px;
+      width: 220px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="about.html">Über mich</a></li>
-            <li><a href="resume.html">Lebenslauf</a></li>
-            <li><a href="yoga.html">Yoga</a></li>
-            <li><a href="art.html">Kunst</a></li>
-            <li><a href="travel.html">Reisen</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-    </nav>
-    <header style="text-align: center;">
-    <h1>Willkommen auf meiner Seite!</h1> 
-<p> Ich bin Ekaterina – angehende Fachinformatikerin, kreative Reisende, Yogini und leidenschaftliche Malerin. <br>Zwischen Codezeilen, Farben und Weltkarten finde ich meine Balance. Schön, dass du hier bist! </p> 
-    <figure>
-        
-<!-- <img src="assets/images/ekaterina_portrait.jpg" alt="Ekaterina Shmeleva" class="portrait"> -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li><a href="about.html">Über mich</a></li>
+      <li><a href="resume.html">Lebenslauf</a></li>
+      <li><a href="yoga.html">Yoga</a></li>
+      <li><a href="art.html">Kunst</a></li>
+      <li><a href="travel.html">Reisen</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+    </ul>
+  </nav>
 
-<img src="assets/images/ekaterina_portrait.jpg" alt="Ekaterina Shmeleva" style="width: 200px; border-radius: 10px;">
+  <header>
+    <h1>Kunst & Malerei</h1>
+  </header>
 
+  <section>
+    <p>
+      Kunst ist für mich ein stiller Raum voller Farben und Emotionen. Wenn ich male, tauche ich in eine Welt ein, in der Gedanken fließen dürfen und Formen entstehen, die keine Worte brauchen.
+    </p>
+    <p>
+      Ich arbeite am liebsten mit Acrylfarben – spontan, intuitiv und oft mit den Händen. Natur, innere Stimmungen und das Spiel von Licht und Struktur inspirieren mich. Diese kreative Freiheit bringt Ausgleich zu meiner analytischen Arbeit in der IT.
+    </p>
+    <p>
+      Hier teile ich einige meiner Werke mit dir. Viel Freude beim Stöbern!
+    </p>
 
-     
-     <h2>Lebensmotto</h2>
-        <p>"Der einzige Weg, großartige Arbeit zu leisten, ist zu lieben, was man tut." – Steve Jobs</p>    
-    </figure>
-</header>
-
+    <div class="image-gallery">
+      <img src="assets/images/art.jpg" alt="Abstraktes Acrylbild" title="Abstraktes Acrylbild">
+      <img src="assets/images/art2.jpg" alt="Farbenfrohes Kunstwerk" title="Farbenfrohes Kunstwerk">
+      <img src="assets/images/art2_img.jpg" alt="Struktur und Farbe" title="Struktur und Farbe">
+      <img src="assets/images/art_img.jpg" alt="Detailreiches Acrylbild" title="Detailreiches Acrylbild">
+    </div>
+  </section>
 </body>
 </html>

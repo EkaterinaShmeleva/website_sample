@@ -1,6 +1,16 @@
-/* --- Navigation --- */
+/* Grundfarben und Hintergrund */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf4;   /* heller cremefarbener Hintergrund */
+  color: #333;                 /* dunkles Grau für Text */
+  line-height: 1.6;
+}
+
+/* Navigation */
 nav {
-  background-color: #8b5e3c;
+  background-color: #e0cfc2;   /* dezentes helles Braun/Beige */
   padding: 10px 0;
 }
 
@@ -14,7 +24,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;
+  color: #4d372e;              /* dunkler Braunton */
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
@@ -23,62 +33,52 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-  color: #d5bdaf;
+  color: #8b5e3c;
   text-decoration: underline;
 }
 
-/* --- Grundlayout --- */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fdfaf6;
-  color: #3b2f2f;
-  line-height: 1.6;
+/* Header */
+header {
+  background-color: #f0e3d8;   /* heller beige Hintergrund */
+  padding: 30px;
+  text-align: center;
 }
 
+header h1 {
+  margin: 0;
+  color: #5a3e36;              /* dunkler Braunton */
+}
+
+/* Hauptbereich */
 main {
   max-width: 900px;
-  margin: 40px auto;
+  margin: 30px auto;
   padding: 0 20px;
 }
 
-/* --- Überschriften --- */
-header h1 {
-  font-size: 2.8rem;
-  color: #6c473d;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
 section {
-  margin-bottom: 40px;
-  background-color: #fdf7f2;
-  padding: 20px;
+  background-color: #fdf7f2;   /* sehr helles beige/creme */
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 40px;
 }
 
 section h2 {
-  color: #6c473d;
-  font-size: 1.8rem;
+  color: #5a3e36;
   margin-bottom: 15px;
   border-bottom: 2px solid #8b5e3c;
   padding-bottom: 5px;
   max-width: max-content;
 }
 
-/* --- Texte & Listen --- */
-section p {
-  font-size: 1.15rem;
-  margin-bottom: 15px;
+section p,
+section ul {
   color: #5a4235;
+  font-size: 1.15rem;
 }
 
 section ul {
-  list-style: disc inside;
-  color: #5a4235;
-  font-size: 1.15rem;
   padding-left: 20px;
 }
 
@@ -86,7 +86,7 @@ section ul li {
   margin-bottom: 10px;
 }
 
-/* --- Links --- */
+/* Links */
 a {
   color: #8b5e3c;
   text-decoration: none;
@@ -97,7 +97,7 @@ a:focus {
   text-decoration: underline;
 }
 
-/* --- Formulare --- */
+/* Formular */
 form {
   display: flex;
   flex-direction: column;

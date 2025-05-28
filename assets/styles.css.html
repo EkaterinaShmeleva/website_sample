@@ -1,13 +1,4 @@
-/* assets/styles.css */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fdfaf6;
-  color: #3b2f2f;
-  line-height: 1.6;
-}
-
+/* --- Navigation --- */
 nav {
   background-color: #8b5e3c;
   padding: 10px 0;
@@ -30,9 +21,20 @@ nav ul li a {
   transition: color 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
   color: #d5bdaf;
   text-decoration: underline;
+}
+
+/* --- Grundlayout --- */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfaf6;
+  color: #3b2f2f;
+  line-height: 1.6;
 }
 
 main {
@@ -41,6 +43,7 @@ main {
   padding: 0 20px;
 }
 
+/* --- Überschriften --- */
 header h1 {
   font-size: 2.8rem;
   color: #6c473d;
@@ -50,6 +53,10 @@ header h1 {
 
 section {
   margin-bottom: 40px;
+  background-color: #fdf7f2;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 section h2 {
@@ -61,6 +68,7 @@ section h2 {
   max-width: max-content;
 }
 
+/* --- Texte & Listen --- */
 section p {
   font-size: 1.15rem;
   margin-bottom: 15px;
@@ -75,5 +83,54 @@ section ul {
 }
 
 section ul li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+/* --- Links --- */
+a {
+  color: #8b5e3c;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* --- Formulare --- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form label {
+  font-weight: bold;
+  color: #5a3e36;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #3b2f2f;
+}
+
+form button {
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover,
+form button:focus {
+  background-color: #a47148;
 }
